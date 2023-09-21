@@ -14,6 +14,7 @@ function setup() {
     particles.push({
       position: createVector(random(width), random(height)),
       color: color(random(255), random(255), random(255)), // Random color
+      radius: random(2, 6),
     });
   }
 
@@ -21,11 +22,12 @@ function setup() {
 }
 
 function draw() {
-  background(0, 30);
+  background(0, 10);
   for (let i = 0; i < num; i++) {
     let particle = particles[i];
-    stroke(particle.color);
-    point(particle.position.x, particle.position.y);
+    noStroke();
+    fill(particle.color);
+    ellipse(particle.position.x, particle.position.y, particle.radius);
     let n = noise(
       particle.position.x * noiseScale,
       particle.position.y * noiseScale,

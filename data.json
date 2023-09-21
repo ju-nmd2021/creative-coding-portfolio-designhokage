@@ -1,12 +1,5 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
-  },
-  {
     "file": "experiments/first.js",
     "name": "First Experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
@@ -17,6 +10,22 @@
   {
     "file": "experiments/flowfield.js",
     "name": "Colourful flowfield",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
+  },
+
+  {
+    "file": "experiments/tone.js",
+    "name": "Tone JS",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
+  },
+
+  {
+    "file": "experiments/flowfield2.js",
+    "name": "Flow field variation",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
