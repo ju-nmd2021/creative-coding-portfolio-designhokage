@@ -10,7 +10,7 @@
   {
     "file": "experiments/flowfield.js",
     "name": "Colourful flowfield",
-    "description": "The flow field also plays a random chord when mouse is released",
+    "description": "A flow field that changes direction on click, and also plays a random chord",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
   },
@@ -26,7 +26,7 @@
   {
     "file": "experiments/flowfield2.js",
     "name": "Flow field variation",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "description": "A variation of the flowfield that uses coolor pallets and ellipses instead of points",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
   },
@@ -35,6 +35,14 @@
     "file": "experiments/disco.js",
     "name": "Interactive Disco Light",
     "description": "Move the track pad with two fingers to see disco light effect",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
+  },
+
+  {
+    "file": "experiments/lineart.js",
+    "name": "Line Art",
+    "description": "Random lines with random colors are generated to the canvas. When key s is pressed, the generation stops, when key v is pressed, it saves the canvas",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
   }
