@@ -2,7 +2,7 @@
 
 let particles = [];
 const num = 1000;
-const synth = new Tone.Synth().toDestination();
+const synth = new Tone.PolySynth().toDestination();
 
 const noiseScale = 0.01 / 5;
 let direction = 1; // Direction variable to control the flow direction
@@ -56,7 +56,17 @@ function mouseReleased() {
   if (Tone.context.state != "running") {
     Tone.start();
   }
-  synth.triggerAttackRelease("G3", "8n");
+
+  // Play a random chord
+  const chords = [
+    ["C4", "E4", "G4"],
+    ["D4", "F4", "A4"],
+    ["E4", "G4", "B4"],
+  ];
+
+  const randomChord = chords[Math.floor(Math.random() * chords.length)];
+
+  synth.triggerAttackRelease(randomChord, "8n");
 }
 
 // Checks if vector is within the canvas

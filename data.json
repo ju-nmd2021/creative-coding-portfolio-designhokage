@@ -10,7 +10,7 @@
   {
     "file": "experiments/flowfield.js",
     "name": "Colourful flowfield",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
+    "description": "The flow field also plays a random chord when mouse is released",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-designhokage/tree/main"
   },
